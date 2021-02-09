@@ -1,0 +1,110 @@
+h1 {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #ffff;
+}
+h2 {
+  font-family: "Monoton", cursive;
+  font-size: 45px;
+  color: #ffff;
+  text-align: center;
+}
+h3 {
+  font-family: "Monoton", cursive;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 50px;
+  color: #ffff;
+}
+.temperature {
+  position: relative;
+  font-size: 65px;
+}
+#icon {
+  position: relative;
+  margin-top: -30px;
+  font-size: 70px;
+}
+
+#geolocation {
+  color: orange;
+}
+
+.units {
+  position: relative;
+  margin-top: -40px;
+  padding-left: 230px;
+  font-size: 15px;
+}
+.units .active {
+  color: #ffff;
+  cursor: default;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}
+ul {
+  position: relative;
+  padding-left: 150px;
+  padding-bottom: 35px;
+  margin: 0;
+  color: #ffff;
+}
+li {
+  list-style: none;
+  font-family: "Monoton", cursive;
+}
+
+.box {
+  display: block;
+  max-width: 400px;
+  margin: 200px auto;
+  margin-bottom: 50px;
+  padding: 50px 1px;
+  background-image: url(https://i.pinimg.com/564x/44/fd/75/44fd75685df44dcfc6948d40acdfd43c.jpg);
+  border: 3px solid #84a89e;
+  border-radius: 12px;
+}
+
+.weather-forecast h4 {
+  color: #ffff;
+  font-family: "Monoton", cursive;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 40px;
+}
+
+.weather-forecast img {
+  display: block;
+  padding-left: 15px;
+  height: 38px;
+  width: 48px;
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  padding-left: 5px;
+  color: #ffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+}
+.row weather-forecast {
+  display: flex;
+  margin-left: 135px;
+}
+
+footer {
+  display: flex;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
