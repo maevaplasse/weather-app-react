@@ -19,6 +19,7 @@ h3 {
 }
 .temperature {
   position: relative;
+  padding-left: 15px;
   font-size: 65px;
 }
 #icon {
@@ -104,7 +105,8 @@ li {
 
 footer {
   display: flex;
-  font-size: 15px;
+  padding-left: 148px;
+  font-size: 12px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
