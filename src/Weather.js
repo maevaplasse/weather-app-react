@@ -13,6 +13,7 @@ export default function Weather(props) {
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
+      icon: response.data.weather[0].icon,
       city: response.data.name,
     });
   }
