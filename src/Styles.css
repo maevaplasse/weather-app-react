@@ -14,35 +14,29 @@ h3 {
   font-family: "Monoton", cursive;
   text-align: center;
   padding-top: 40px;
-  padding-right: 50px;
+  padding-right: 30px;
   color: #ffff;
 }
-.Weather canvas {
-  margin: 5px;
+.float canvas {
+  padding-left: 50px;
 }
-
-.temperature {
+.WeatherTemperature {
   position: relative;
   padding-left: 35px;
-  font-size: 65px;
+  font-size: 55px;
 }
 
 #geolocation {
   color: orange;
 }
 
-.units {
-  position: relative;
-  margin-top: -40px;
-  padding-left: 230px;
-  font-size: 15px;
-}
-.units .active {
+.unit {
   color: #ffff;
   cursor: default;
+  font-size: 25px;
 }
 
-.units .active:hover {
+.Weather.unit:hover {
   text-decoration: none;
 }
 ul {
