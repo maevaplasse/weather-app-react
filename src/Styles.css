@@ -1,3 +1,6 @@
+body {
+  background-color: #fdefd8;
+}
 h1 {
   font-size: 16px;
   font-family: "Courier New", Courier, monospace;
@@ -13,7 +16,7 @@ h2 {
 h3 {
   font-family: "Monoton", cursive;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-right: 30px;
   color: #ffff;
 }
@@ -26,7 +29,7 @@ h3 {
   font-size: 55px;
 }
 
-#geolocation {
+i {
   color: orange;
 }
 
@@ -39,14 +42,11 @@ h3 {
 .Weather.unit:hover {
   text-decoration: none;
 }
-ul {
-  position: relative;
-  padding-left: 150px;
-  padding-bottom: 35px;
-  margin: 0;
-  color: #ffff;
-}
+
 li {
+  display: flex;
+  padding-left: 110px;
+  color: #ffff;
   list-style: none;
   font-family: "Monoton", cursive;
 }
@@ -55,16 +55,16 @@ li {
   display: block;
   max-width: 400px;
   margin: 200px auto;
-  margin-bottom: 50px;
-  padding: 50px 1px;
-  background-image: url(https://i.pinimg.com/564x/44/fd/75/44fd75685df44dcfc6948d40acdfd43c.jpg);
-  border: 3px solid #84a89e;
+  margin-bottom: 20px;
+  padding: 30px 1px;
+  background-image: url(https://i.pinimg.com/564x/47/22/4f/47224f874bf472f0a336818480718172.jpg);
+  border: 2px solid #fdefd8;
   border-radius: 12px;
+  box-shadow: 10px 5px 8px #fad8bb;
 }
 
-footer {
-  display: flex;
-  padding-left: 70px;
+.App footer {
+  margin: 10px 0;
   font-size: 12px;
   font-family: "Courier New", Courier, monospace;
   text-align: center;

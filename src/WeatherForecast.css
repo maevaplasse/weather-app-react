@@ -1,0 +1,11 @@
+.WeatherForecast {
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Monoton", cursive;
+  color: #ffffff;
+}
+
+.WeatherForecast canvas {
+  display: flex;
+  width: 38px;
+}
