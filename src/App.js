@@ -9,7 +9,7 @@ export default function App() {
         <Weather defaultCity="Santa Barbara" />
         <footer>
           Coded by {""}
-          <a href="https://github.com/maevaplasse" target="_blank">
+          <a href="https://www.linkedin.com/in/maeva-plasse/" target="_blank">
             Maeva Plasse
           </a>{" "}
           and is{" "}
