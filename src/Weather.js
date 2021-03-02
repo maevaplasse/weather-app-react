@@ -46,9 +46,11 @@ export default function Weather(props) {
                 />
               </div>
               <div classname="col-2">
-                <button type="button" className="btn btn-link">
-                  <i className="fas fa-map-marker-alt"></i>
-                </button>
+                <input
+                  type="submit"
+                  value=" ☂︎ "
+                  className="form-control btn btn-outline-white shadow-sm"
+                />
               </div>
             </div>
           </form>
@@ -59,6 +61,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "loading...";
+    return "🌻 🌈 loading...";
   }
 }
